@@ -36,11 +36,11 @@ print("Matriz original:")
 for fila in matriz:
     print(fila)
 
-# Ordenar la fila especificada
+# Ordenar la fila especificada matriz
 matriz_ordenada = ordenar_fila(matriz, fila_index)
 
 # Mostrar la matriz con la fila ordenada
 print("\nMatriz con la fila ordenada:")
 for fila in matriz_ordenada:
     print(fila)
-#actualizar finalizar
+
