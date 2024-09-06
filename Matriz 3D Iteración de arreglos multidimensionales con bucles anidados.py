@@ -1,141 +1,160 @@
-# Definición de la matriz 3D de temperaturas
+# Definición de la matriz 3D de temperaturas para cada ciudad y semana
 temperaturas = [
     [  # Ciudad 1
         [  # Semana 1
-            {"day": "Lunes", "temp": 78},
-            {"day": "Martes", "temp": 80},
-            {"day": "Miércoles", "temp": 82},
-            {"day": "Jueves", "temp": 79},
-            {"day": "Viernes", "temp": 85},
-            {"day": "Sábado", "temp": 88},
-            {"day": "Domingo", "temp": 92}
+            {"dia": "Lunes", "temp": 78},
+            {"dia": "Martes", "temp": 80},
+            {"dia": "Miércoles", "temp": 82},
+            {"dia": "Jueves", "temp": 79},
+            {"dia": "Viernes", "temp": 85},
+            {"dia": "Sábado", "temp": 88},
+            {"dia": "Domingo", "temp": 92}
         ],
         [  # Semana 2
-            {"day": "Lunes", "temp": 76},
-            {"day": "Martes", "temp": 79},
-            {"day": "Miércoles", "temp": 83},
-            {"day": "Jueves", "temp": 81},
-            {"day": "Viernes", "temp": 87},
-            {"day": "Sábado", "temp": 89},
-            {"day": "Domingo", "temp": 93}
+            {"dia": "Lunes", "temp": 76},
+            {"dia": "Martes", "temp": 79},
+            {"dia": "Miércoles", "temp": 83},
+            {"dia": "Jueves", "temp": 81},
+            {"dia": "Viernes", "temp": 87},
+            {"dia": "Sábado", "temp": 89},
+            {"dia": "Domingo", "temp": 93}
         ],
         [  # Semana 3
-            {"day": "Lunes", "temp": 77},
-            {"day": "Martes", "temp": 81},
-            {"day": "Miércoles", "temp": 85},
-            {"day": "Jueves", "temp": 82},
-            {"day": "Viernes", "temp": 88},
-            {"day": "Sábado", "temp": 91},
-            {"day": "Domingo", "temp": 95}
+            {"dia": "Lunes", "temp": 77},
+            {"dia": "Martes", "temp": 81},
+            {"dia": "Miércoles", "temp": 85},
+            {"dia": "Jueves", "temp": 82},
+            {"dia": "Viernes", "temp": 88},
+            {"dia": "Sábado", "temp": 91},
+            {"dia": "Domingo", "temp": 95}
         ],
         [  # Semana 4
-            {"day": "Lunes", "temp": 75},
-            {"day": "Martes", "temp": 78},
-            {"day": "Miércoles", "temp": 80},
-            {"day": "Jueves", "temp": 79},
-            {"day": "Viernes", "temp": 84},
-            {"day": "Sábado", "temp": 87},
-            {"day": "Domingo", "temp": 91}
+            {"dia": "Lunes", "temp": 75},
+            {"dia": "Martes", "temp": 78},
+            {"dia": "Miércoles", "temp": 80},
+            {"dia": "Jueves", "temp": 79},
+            {"dia": "Viernes", "temp": 84},
+            {"dia": "Sábado", "temp": 87},
+            {"dia": "Domingo", "temp": 91}
         ]
     ],
     [  # Ciudad 2
         [  # Semana 1
-            {"day": "Lunes", "temp": 62},
-            {"day": "Martes", "temp": 64},
-            {"day": "Miércoles", "temp": 68},
-            {"day": "Jueves", "temp": 70},
-            {"day": "Viernes", "temp": 73},
-            {"day": "Sábado", "temp": 75},
-            {"day": "Domingo", "temp": 79}
+            {"dia": "Lunes", "temp": 62},
+            {"dia": "Martes", "temp": 64},
+            {"dia": "Miércoles", "temp": 68},
+            {"dia": "Jueves", "temp": 70},
+            {"dia": "Viernes", "temp": 73},
+            {"dia": "Sábado", "temp": 75},
+            {"dia": "Domingo", "temp": 79}
         ],
         [  # Semana 2
-            {"day": "Lunes", "temp": 63},
-            {"day": "Martes", "temp": 66},
-            {"day": "Miércoles", "temp": 70},
-            {"day": "Jueves", "temp": 72},
-            {"day": "Viernes", "temp": 75},
-            {"day": "Sábado", "temp": 77},
-            {"day": "Domingo", "temp": 81}
+            {"dia": "Lunes", "temp": 63},
+            {"dia": "Martes", "temp": 66},
+            {"dia": "Miércoles", "temp": 70},
+            {"dia": "Jueves", "temp": 72},
+            {"dia": "Viernes", "temp": 75},
+            {"dia": "Sábado", "temp": 77},
+            {"dia": "Domingo", "temp": 81}
         ],
         [  # Semana 3
-            {"day": "Lunes", "temp": 61},
-            {"day": "Martes", "temp": 65},
-            {"day": "Miércoles", "temp": 68},
-            {"day": "Jueves", "temp": 70},
-            {"day": "Viernes", "temp": 72},
-            {"day": "Sábado", "temp": 76},
-            {"day": "Domingo", "temp": 80}
+            {"dia": "Lunes", "temp": 61},
+            {"dia": "Martes", "temp": 65},
+            {"dia": "Miércoles", "temp": 68},
+            {"dia": "Jueves", "temp": 70},
+            {"dia": "Viernes", "temp": 72},
+            {"dia": "Sábado", "temp": 76},
+            {"dia": "Domingo", "temp": 80}
         ],
         [  # Semana 4
-            {"day": "Lunes", "temp": 64},
-            {"day": "Martes", "temp": 67},
-            {"day": "Miércoles", "temp": 69},
-            {"day": "Jueves", "temp": 71},
-            {"day": "Viernes", "temp": 74},
-            {"day": "Sábado", "temp": 77},
-            {"day": "Domingo", "temp": 80}
+            {"dia": "Lunes", "temp": 64},
+            {"dia": "Martes", "temp": 67},
+            {"dia": "Miércoles", "temp": 69},
+            {"dia": "Jueves", "temp": 71},
+            {"dia": "Viernes", "temp": 74},
+            {"dia": "Sábado", "temp": 77},
+            {"dia": "Domingo", "temp": 80}
         ]
     ],
     [  # Ciudad 3
         [  # Semana 1
-            {"day": "Lunes", "temp": 90},
-            {"day": "Martes", "temp": 92},
-            {"day": "Miércoles", "temp": 94},
-            {"day": "Jueves", "temp": 91},
-            {"day": "Viernes", "temp": 88},
-            {"day": "Sábado", "temp": 85},
-            {"day": "Domingo", "temp": 82}
+            {"dia": "Lunes", "temp": 90},
+            {"dia": "Martes", "temp": 92},
+            {"dia": "Miércoles", "temp": 94},
+            {"dia": "Jueves", "temp": 91},
+            {"dia": "Viernes", "temp": 88},
+            {"dia": "Sábado", "temp": 85},
+            {"dia": "Domingo", "temp": 82}
         ],
         [  # Semana 2
-            {"day": "Lunes", "temp": 89},
-            {"day": "Martes", "temp": 91},
-            {"day": "Miércoles", "temp": 93},
-            {"day": "Jueves", "temp": 90},
-            {"day": "Viernes", "temp": 87},
-            {"day": "Sábado", "temp": 84},
-            {"day": "Domingo", "temp": 81}
+            {"dia": "Lunes", "temp": 89},
+            {"dia": "Martes", "temp": 91},
+            {"dia": "Miércoles", "temp": 93},
+            {"dia": "Jueves", "temp": 90},
+            {"dia": "Viernes", "temp": 87},
+            {"dia": "Sábado", "temp": 84},
+            {"dia": "Domingo", "temp": 81}
         ],
         [  # Semana 3
-            {"day": "Lunes", "temp": 91},
-            {"day": "Martes", "temp": 93},
-            {"day": "Miércoles", "temp": 95},
-            {"day": "Jueves", "temp": 92},
-            {"day": "Viernes", "temp": 89},
-            {"day": "Sábado", "temp": 86},
-            {"day": "Domingo", "temp": 83}
+            {"dia": "Lunes", "temp": 91},
+            {"dia": "Martes", "temp": 93},
+            {"dia": "Miércoles", "temp": 95},
+            {"dia": "Jueves", "temp": 92},
+            {"dia": "Viernes", "temp": 89},
+            {"dia": "Sábado", "temp": 86},
+            {"dia": "Domingo", "temp": 83}
         ],
         [  # Semana 4
-            {"day": "Lunes", "temp": 88},
-            {"day": "Martes", "temp": 90},
-            {"day": "Miércoles", "temp": 92},
-            {"day": "Jueves", "temp": 89},
-            {"day": "Viernes", "temp": 86},
-            {"day": "Sábado", "temp": 83},
-            {"day": "Domingo", "temp": 80}
+            {"dia": "Lunes", "temp": 88},
+            {"dia": "Martes", "temp": 90},
+            {"dia": "Miércoles", "temp": 92},
+            {"dia": "Jueves", "temp": 89},
+            {"dia": "Viernes", "temp": 86},
+            {"dia": "Sábado", "temp": 83},
+            {"dia": "Domingo", "temp": 80}
         ]
     ]
 ]
 
-# Calcular y mostrar el promedio de temperaturas para cada ciudad y semana
-for ciudad_index, ciudad in enumerate(temperaturas):
-    # Imprimir el encabezado para cada ciudad
-    print(f"Ciudad {ciudad_index + 1}:")
 
-    # Iterar sobre cada semana de la ciudad actual
+def imprimir_promedios(ciudad, ciudad_num):
+    """Calcula y muestra el promedio de temperaturas para cada semana en la ciudad seleccionada."""
+    print(f"Promedio de resultados de la ciudad {ciudad_num}:")
     for semana_index, semana in enumerate(ciudad):
-        suma = 0  # Inicializar la suma de temperaturas
-        conteo = 0  # Inicializar el conteo de días
+        suma = 0  # Inicializamos la suma de temperaturas
+        conteo = 0  # Inicializamos el conteo de días
 
-        # Iterar sobre cada día de la semana actual
+        # Sumamos las temperaturas de cada día de la semana
         for dia in semana:
-            suma += dia['temp']  # Sumar la temperatura del día
-            conteo += 1  # Incrementar el conteo de días
+            suma += dia['temp']  # Sumamos la temperatura del día
+            conteo += 1  # Aumentamos el conteo de días
 
-        # Calcular el promedio de temperatura para la semana
+        # Calculamos el promedio de temperatura para la semana
         promedio = suma / conteo
 
-        # Imprimir el promedio de la semana actual
+        # Mostramos el promedio de temperatura para la semana actual
         print(f"  Semana {semana_index + 1}: Promedio de temperatura = {promedio:.2f}")
 
-    # Línea en blanco entre ciudades para mejorar la legibilidad de las matrices
-    print()
+
+while True:
+    # Mostramos el menú de selección de ciudad y la opción para salir
+    print("Seleccione una opción:")
+    print("1: Ciudad 1")
+    print("2: Ciudad 2")
+    print("3: Ciudad 3")
+    print("4: Salir")
+
+    seleccion = input("Ingrese su opción (1-4): ")
+
+    if seleccion == '4':
+        print("Saliendo del programa.")
+        break
+
+    if seleccion in ['1', '2', '3']:
+        ciudad_index = int(seleccion) - 1
+        ciudad = temperaturas[ciudad_index]
+        imprimir_promedios(ciudad, seleccion)
+        print()  # Añadimos una línea en blanco para separar las salidas
+    else:
+        print("Selección inválida. Por favor, ingrese un número entre 1 y 4.")
+
