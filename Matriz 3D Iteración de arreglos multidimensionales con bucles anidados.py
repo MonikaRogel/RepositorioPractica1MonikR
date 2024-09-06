@@ -137,5 +137,5 @@ for ciudad_index, ciudad in enumerate(temperaturas):
         # Imprimir el promedio de la semana actual
         print(f"  Semana {semana_index + 1}: Promedio de temperatura = {promedio:.2f}")
 
-    # Línea en blanco entre ciudades para mejorar la legibilidad de las matrices
+    # Línea en blanco entre ciudades para mejorar la legibilidad de las matrices 3D
     print()
