@@ -1,4 +1,4 @@
-# SEMANA N° 13 Monica Rogel Q
+#SEMANA N°13 Monica Rogel
 
 # Defino la función para calcular el promedio de temperatura por ciudad
 def calcular_promedio_temperatura_por_ciudad(temperaturas):
