@@ -1,4 +1,6 @@
+# SEMNA N°12 Monica Rogel
 # Definición de la matriz 3D de temperaturas para cada ciudad y semana
+
 temperaturas = [
     [  # Ciudad 1
         [  # Semana 1
@@ -115,7 +117,7 @@ temperaturas = [
         ]
     ]
 ]
-
+#   SEMANA 12
 
 def imprimir_promedios(ciudad, ciudad_num):
     """Calcula y muestra el promedio de temperaturas para cada semana en la ciudad seleccionada."""
@@ -157,4 +159,3 @@ while True:
         print()  # Añadimos una línea en blanco para separar las salidas
     else:
         print("Selección inválida. Por favor, ingrese un número entre 1 y 4.")
-
