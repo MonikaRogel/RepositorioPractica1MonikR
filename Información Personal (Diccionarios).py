@@ -1,4 +1,4 @@
-#SEMANA N°15 Monica Rogel Q (Diccionarios)
+#SEMANA N°15 Monica Rogel (Diccionarios)
 
 # Creamos un diccionario con información de una persona
 informacion_personal = {
