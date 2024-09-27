@@ -1,3 +1,5 @@
+#SEMANA N°15 Monica Rogel (Diccionarios)
+
 # Creamos un diccionario con información de una persona
 informacion_personal = {
     "nombre": "Betzy",
@@ -20,7 +22,7 @@ informacion_personal["nueva_profesion"] = "Tecnologías de la Información"
 # Verificamos si tiene un número de teléfono
 if "telefono" not in informacion_personal:
     # Si no tiene, agregamos un número ficticio
-    informacion_personal["telefono"] = "0994671001"
+    informacion_personal["telefono"] = "09934671001"
     print("Se ha agregado el número de teléfono.")
 else:
     print("Ya tiene un número de teléfono.")
