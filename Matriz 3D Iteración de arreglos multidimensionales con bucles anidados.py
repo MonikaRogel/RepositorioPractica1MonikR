@@ -1,4 +1,4 @@
-# SEMNA N°12 Monica Rogel
+# SEMNA N°12 Monica Rogel Q
 # Definición de la matriz 3D de temperaturas para cada ciudad y semana
 
 temperaturas = [
